@@ -9,9 +9,9 @@ export class SettingsService {
     disableBalanceOnEdit: true
   };
   constructor() {
-if(localStorage.getItem('settings') != null){
-  this.settings = JSON.parse(localStorage.getItem('settings'))
-}
+// if(localStorage.getItem('settings') != null){
+//   this.settings = JSON.parse(localStorage.getItem('settings'))
+// }
   }
 
   getSettings(): Settings {
