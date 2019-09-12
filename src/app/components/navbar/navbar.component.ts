@@ -45,7 +45,9 @@ showRegister: boolean
     this.flashMessage.show("You are Now Loggedoit",{
     cssClass:'alert-success',
     timeout:4000
-  })
+  });
+  this.router.navigate(['/login'])
+
   }
 
 }
