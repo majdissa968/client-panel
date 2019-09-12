@@ -42,7 +42,7 @@ showRegister: boolean
 
   onLogoutClick(){
     this.authService.logout();
-    this.flashMessage.show("You are Now Loggedoit",{
+    this.flashMessage.show("You are Now Logg",{
     cssClass:'alert-success',
     timeout:4000
   });
